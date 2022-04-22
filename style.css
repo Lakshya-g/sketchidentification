@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(141, 141, 221);
+
+}
+
+
+h1{
+    color:rgb(0, 22, 88);
+    background-color: paleturquoise;
+}
+
+
+#show_sketch{
+    float: right;
+
+}
+
+
+canvas{
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    animation-name:Bulletproof;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes Bulletproof{
+    from{box-shadow:1px 1px 60px violet;}
+    to{box-shadow:1px 1px 60px white;}
+    
+}
+
+
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
